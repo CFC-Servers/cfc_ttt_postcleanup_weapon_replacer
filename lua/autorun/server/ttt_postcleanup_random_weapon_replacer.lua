@@ -1,11 +1,11 @@
 local weaponReplaceChances = {
-    ["weapon_zm_rifle"]	= 0.20,
-    ["weapon_zm_shotgun"] = 0.20,
-    ["weapon_ttt_m16"] = 0.20,
-    ["weapon_zm_mac10"] = 0.20,
-    ["weapon_zm_revolver"] = 0.20, -- deagle
-    ["weapon_ttt_glock"] = 0.20, 
-    ["weapon_zm_pistol"] = 0.20 -- five seven
+    ["weapon_zm_rifle"] = 0.15,
+    ["weapon_zm_shotgun"] = 0.15,
+    ["weapon_ttt_m16"] = 0.15,
+    ["weapon_zm_mac10"] = 0.15,
+    ["weapon_zm_revolver"] = 0.15, -- deagle
+    ["weapon_ttt_glock"] = 0.15,
+    ["weapon_zm_pistol"] = 0.15 -- five seven
 }
 
 hook.Add("PostCleanupMap",  "CFC_TTTWeaponReplacer_ReplaceWeaponsWithRandom", function()
